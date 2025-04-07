@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container3{
+    width: auto;
+    background-color: rgb(243, 238, 238);
+    padding: 10px;
+  
+ 
+}
+.our p{
+     font-family: "Montserrat", serif;
+     font-size: 30px;
+     font-weight: bold;
+     padding: 20px;
+     /* margin-left: 10px; */
+
+}
+
+.apple{
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid rgb(238, 12, 80);
+    border-radius: 10px;
+}
+
+.apple p{
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.dd{
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.appp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+    /* align-items: center; */
+}
+
+.appp :nth-child(1){
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.appp :nth-child(2){
+    color: rgb(255, 0, 0);
+    
+}
+
+.appp :nth-child(3){
+    width: 85px;
+   padding: 11px;
+    border: 0px;
+    background-color: rgb(238, 12, 80);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    
+   
+   
+    
+}
+
+
+.main{
+    padding: 30px;
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.allp{
+    display: block;
+   text-align: center; 
+    gap: 40px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .apple{
+       border-radius: 10px;
+       border: 0px;
+       width: 100%;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       gap: 100px;
+    }
+
+}
+

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container-2{
+    /* font-family: "Montserrat", serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    
+}
+
+.cc{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.bb{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.aa{
+    color: rgb(255, 103, 1);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.heading1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading2{
+    font-family: "Montserrat", serif;
+    font-weight: 540;
+    font-size: 25px;
+    width: 400px;
+}
+
+.heading3{
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    font-size: 25px;
+    width: 562px;
+}
+
+
+
+.heading4 button{
+    width: 200px;
+    padding: 15px;
+    border-radius: 17px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(238, 12, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.bag-btn{
+    font-size: 30px;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.leaf-img{
+    position: absolute;
+    left: 300px;
+    rotate: 40deg;
+    opacity: 0.9;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container-2{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .heading1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cc{
+        color: black;
+        font-weight: bold;
+        font-size: 60px;
+    }
+    .bb{
+        font-size: 60px;
+    }
+
+    .heading2{
+        font-family: "Montserrat", serif;
+        font-weight: 540;
+        font-size: 25px;
+        width: auto;
+    }
+
+    .heading3{
+        font-family: "Montserrat", serif;
+        font-weight: 300;
+        font-size: 22px;
+        width: auto;
+        text-align: center;
+       
+    }
+
+    .leaf-img{
+        position: absolute;
+    top: 20px;
+    left: 0px;
+    rotate: 40deg;
+    opacity: 0.7;
+    }
+
+
+}

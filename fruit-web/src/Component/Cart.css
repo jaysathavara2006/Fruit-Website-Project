@@ -1,0 +1,95 @@
+.prdata{
+  
+    
+    display: flex;
+    align-items: center;
+    gap: 15px;   
+   
+}
+
+.prmain{
+    border: 2px solid rgb(218, 214, 214);
+    border-radius: 10px;
+    width: 40%;
+    height: 153.5px;
+}
+
+.cart-container{
+    padding: 10px;
+
+}
+
+.prtitl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prtitl :nth-child(1){
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.prtitl :nth-child(2){
+   
+    font-size: 22px;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-top: 10px;
+}
+
+.counter :nth-child(1){
+    border: 1px solid;
+    padding: 0px 9px;
+    border-radius: 20%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.counter :nth-child(2){
+   font-size: 22px;
+}
+.counter :nth-child(3){
+    border: 1px solid;
+    padding: 0px 7px 0px 7px;
+    border-radius: 20%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.dellogo p{ 
+    position: absolute;
+    top: -58px;
+    font-size: 30px;
+    color: rgb(255, 91, 86);
+}
+
+.delma{
+    position: absolute;
+
+    left: 480px;
+    
+}
+
+.paybtnmain{
+   padding-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.paybtnmain button{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+    background-color: rgb(21, 88, 24);
+    
+}

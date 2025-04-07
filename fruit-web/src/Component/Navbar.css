@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* h3{
+    font-family: "Averia Serif Libre", serif;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: "Montserrat", serif;
+   margin-top: 20px;
+}
+
+.nav-logo{
+    display: flex;
+    /* justify-content: start; */
+    /* align-items: center; */
+    gap: 8px;
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo-1{
+    color: #e30d66;
+    text-transform: uppercase;
+    /* font-family:  "Averia Serif Libre", serif; */
+}
+
+.logo-2{
+    /* color: #ffa200; */
+    color: rgb(255, 123, 0);
+    text-transform: uppercase;
+}
+
+.leaf{
+    color: rgb(59, 214, 2);
+}
+
+.nav-iteam{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 50px;
+    position: relative;
+ 
+    
+}
+
+.nav-iteam a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-size: 22px;
+    font-family:  "Averia Serif Libre", serif; 
+      
+
+}
+
+.cart-logo{
+    /* margin-left: 20px; */
+    
+    font-size: 32px;
+}
+.nav-iteam a:hover {
+    color: #e30d66; 
+    text-decoration: underline;
+}
+
+.cart-logo:hover{
+    
+    color: white;
+    background-color: #e30d66;
+    padding: 5px;
+    /* font-size: 35px; */
+    border-radius: 50%;    
+}
+
+.menu-logo{
+       display: none; 
+}
+
+.nav-iteam .show{
+    display: none;
+   
+}
+.cart-ll{
+    padding: 0px 7px;
+    background-color: orange;
+    color: rgb(7, 112, 63);
+    border-radius: 50%;
+    position: absolute;
+   bottom: 20px;
+   right: -20px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .nav-iteam{
+        display: none;
+        flex-direction: column;
+    position: absolute;
+    
+    }
+
+    .nav-iteam.show{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+        margin-top: 400px;
+        background-color: #f71372;
+        border-radius: 20px;
+       
+        
+    }
+
+    .nav-iteam a{
+        color: aliceblue;
+    }
+
+    .nav-iteam a:hover {
+        color: aliceblue; 
+        text-decoration: underline;
+    }
+
+    
+    .menu-logo{
+        display: flex;
+        font-size: 40px;
+        margin-right: 17px;
+    }
+
+    .cart-logo{
+        display: none;
+        
+    }
+
+   
+
+}
+
+
+
+
