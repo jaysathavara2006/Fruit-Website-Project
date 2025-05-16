@@ -24,6 +24,7 @@
     font-size: 20px;
     font-weight: 500;
 }
+
 .brandinfoo :nth-child(4){
     font-size: 17px;
     font-weight: bold;
@@ -33,6 +34,13 @@
     border-radius: 10px;
     background-color: rgb(238, 12, 80);
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.brandinfoo :nth-child(4):hover {
+    background-color: rgb(201, 10, 68);
+    transform: scale(1.05);
 }
 
 .brandinfoo {
@@ -41,23 +49,169 @@
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-
 }
 
-@media only screen and (max-width: 768px) {
+/* Large Screens and Laptops */
+@media only screen and (max-width: 1200px) {
+    .container5 {
+        padding: 50px;
+        gap: 25px;
+    }
 
-    .container5{
-        display: flex;
+    .brandinfoo {
+        width: 450px;
+    }
+
+    .brandinfoo :nth-child(1) {
+        font-size: 36px;
+    }
+
+    .brandinfoo :nth-child(2),
+    .brandinfoo :nth-child(3) {
+        font-size: 19px;
+    }
+
+    .brandinfoo :nth-child(4) {
+        width: 180px;
+        padding: 18px;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media only screen and (max-width: 992px) {
+    .container5 {
+        padding: 40px 20px;
+        gap: 30px;
         flex-direction: column;
+    }
+
+    .brandinfoo {
+        width: 100%;
+        max-width: 600px;
         align-items: center;
         text-align: center;
     }
 
+    .brandinfoo :nth-child(1) {
+        font-size: 34px;
+        padding: 0 15px;
+    }
+
+    .brandinfoo :nth-child(2),
+    .brandinfoo :nth-child(3) {
+        font-size: 18px;
+        padding: 0 20px;
+        max-width: 500px;
+    }
+
+    .brandinfoo :nth-child(4) {
+        width: 170px;
+        padding: 16px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+}
+
+/* Medium Tablets */
+@media only screen and (max-width: 768px) {
+    .container5 {
+        padding: 30px 15px;
+        gap: 25px;
+    }
+
     .brandinfoo {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        max-width: 500px;
+        gap: 20px;
+    }
+
+    .brandinfoo :nth-child(1) {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .brandinfoo :nth-child(2),
+    .brandinfoo :nth-child(3) {
+        font-size: 17px;
+        padding: 0 15px;
+        line-height: 1.4;
+    }
+}
+
+/* Small Tablets */
+@media only screen and (max-width: 600px) {
+    .container5 {
+        padding: 25px 15px;
+        gap: 20px;
+    }
+
+    .brandinfoo {
+        max-width: 450px;
+        gap: 18px;
+    }
+
+    .brandinfoo :nth-child(1) {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    .brandinfoo :nth-child(2),
+    .brandinfoo :nth-child(3) {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .brandinfoo :nth-child(4) {
+        width: 160px;
+        padding: 15px;
+        font-size: 15px;
+    }
+}
+
+/* Mobile Phones */
+@media only screen and (max-width: 480px) {
+    .container5 {
+        padding: 20px;
+    }
+
+    .brandinfoo {
+        gap: 15px;
+    }
+
+    .brandinfoo :nth-child(1) {
+        font-size: 26px;
+    }
+
+    .brandinfoo :nth-child(2),
+    .brandinfoo :nth-child(3) {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .brandinfoo :nth-child(4) {
+        width: 150px;
+        padding: 14px;
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices */
+@media only screen and (max-width: 320px) {
+    .container5 {
+        padding: 15px;
+    }
+
+    .brandinfoo :nth-child(1) {
+        font-size: 24px;
+    }
+
+    .brandinfoo :nth-child(2),
+    .brandinfoo :nth-child(3) {
+        font-size: 14px;
+    }
+
+    .brandinfoo :nth-child(4) {
+        width: 140px;
+        padding: 12px;
+        font-size: 13px;
     }
 }

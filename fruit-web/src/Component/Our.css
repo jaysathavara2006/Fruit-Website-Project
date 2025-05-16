@@ -89,24 +89,197 @@
     gap: 40px;
 }
 
-
-@media only screen and (max-width: 768px) {
-
-    .main{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
+/* Large Screens and Laptops */
+@media only screen and (max-width: 1200px) {
+    .main {
+        padding: 25px;
+        gap: 90px;
     }
 
-    .apple{
-       border-radius: 10px;
-       border: 0px;
-       width: 100%;
-       display: flex;
-       justify-content: flex-start;
-       align-items: center;
-       gap: 100px;
+    .apple {
+        width: 230px;
+        padding: 25px;
     }
 
+    .appp :nth-child(1) {
+        font-size: 18px;
+    }
 }
+
+/* Tablets and Small Laptops */
+@media only screen and (max-width: 992px) {
+    .container3 {
+        padding: 15px;
+    }
+
+    .our p {
+        font-size: 28px;
+        padding: 15px;
+    }
+
+    .main {
+        padding: 20px;
+        gap: 60px;
+    }
+
+    .apple {
+        width: 220px;
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .appp :nth-child(1) {
+        font-size: 17px;
+    }
+
+    .appp :nth-child(3) {
+        width: 80px;
+        padding: 10px;
+    }
+}
+
+/* Medium Tablets */
+@media only screen and (max-width: 768px) {
+    .container3 {
+        padding: 10px;
+    }
+
+    .our p {
+        font-size: 26px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .allp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .main {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .apple {
+        width: 210px;
+        padding: 18px;
+    }
+
+    .appp :nth-child(1) {
+        font-size: 16px;
+    }
+
+    .appp :nth-child(2) {
+        font-size: 15px;
+    }
+}
+
+/* Small Tablets and Large Phones */
+@media only screen and (max-width: 600px) {
+    .our p {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .apple {
+        width: 200px;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .dd {
+        padding: 4px;
+    }
+
+    .appp {
+        gap: 4px;
+    }
+
+    .appp :nth-child(3) {
+        width: 75px;
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile Phones */
+@media only screen and (max-width: 480px) {
+    .container3 {
+        padding: 15px;
+    }
+
+    .our p {
+        font-size: 26px;
+        padding: 15px;
+    }
+
+    .allp {
+        gap: 25px;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .apple {
+        width: 280px;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .dd {
+        padding: 5px;
+    }
+
+    .appp {
+        gap: 8px;
+    }
+
+    .appp :nth-child(1) {
+        font-size: 18px;
+    }
+
+    .appp :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .appp :nth-child(3) {
+        width: 90px;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+/* Extra Small Devices */
+@media only screen and (max-width: 320px) {
+    .apple {
+        width: 260px;
+        padding: 15px;
+    }
+
+    .appp :nth-child(1) {
+        font-size: 17px;
+    }
+
+    .appp :nth-child(2) {
+        font-size: 15px;
+    }
+
+    .appp :nth-child(3) {
+        width: 85px;
+        padding: 9px;
+        font-size: 14px;
+    }
+}
+
+
+
 

@@ -60,33 +60,251 @@ width: 350px;
     font-size: 25px;
 }
 
-@media only screen and (max-width: 768px) {
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
 
-    .fruit-bg{
-        width: 100%;
+.fruit-bg{
+    background-image: url('C:\ReactJS\fruit-web\src\assets\banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 95vh;
+    border-radius: 25px;
+    position: relative;
+}
+
+.Fresh-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Montserrat", serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    text-align: left;
+}
+
+.freshmain1{
+    width: 350px;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.freshmain2{
+    width: 540px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.freshmain3 button{
+    width: 190px;
+    padding: 15px;
+    border-radius: 17px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(238, 12, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.freshmain3 button:hover {
+    background-color: rgb(201, 10, 68);
+    transform: scale(1.05);
+}
+
+.bag-bb{
+    font-size: 25px;
+}
+
+/* Large Screens and Laptops */
+@media only screen and (max-width: 1200px) {
+    .container6 {
+        padding: 25px;
     }
 
-    .Fresh-content{
+    .fruit-bg {
+        width: 95vw;
+        height: 90vh;
+    }
+
+    .Fresh-content {
+        padding: 30px;
+    }
+
+    .freshmain1 {
+        width: 300px;
+        font-size: 36px;
+    }
+
+    .freshmain2 {
+        width: 480px;
+        font-size: 19px;
+    }
+
+    .freshmain3 button {
+        width: 180px;
+        padding: 14px;
+        font-size: 18px;
+    }
+}
+
+/* Tablets and Small Laptops */
+@media only screen and (max-width: 992px) {
+    .container6 {
+        padding: 20px;
+    }
+
+    .fruit-bg {
+        height: 80vh;
+    }
+
+    .Fresh-content {
+        padding: 25px;
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .freshmain1 {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .freshmain2 {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .freshmain3 {
         display: flex;
         justify-content: center;
-        align-items: center;
-        padding: 0;
-        left: auto;
-        padding: 30px;
-        margin-top: 190px;
     }
 
-    .freshmain1{
-       width: auto;
+    .freshmain3 button {
+        width: 170px;
+        padding: 13px;
+        font-size: 17px;
     }
 
-    .freshmain2{
-        width: auto;
-        opacity: 1;
-        font-weight: 550;
+    .bag-bb {
+        font-size: 22px;
+    }
+}
+
+/* Medium Tablets */
+@media only screen and (max-width: 768px) {
+    .container6 {
+        padding: 15px;
     }
 
+    .fruit-bg {
+        height: 70vh;
+        border-radius: 20px;
+    }
 
+    .Fresh-content {
+        padding: 20px;
+        gap: 15px;
+    }
 
+    .freshmain1 {
+        font-size: 28px;
+    }
 
+    .freshmain2 {
+        font-size: 16px;
+    }
+
+    .freshmain3 button {
+        width: 160px;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .bag-bb {
+        font-size: 20px;
+    }
+}
+
+/* Small Tablets and Large Phones */
+@media only screen and (max-width: 600px) {
+    .container6 {
+        padding: 10px;
+    }
+
+    .fruit-bg {
+        height: 60vh;
+        border-radius: 15px;
+    }
+
+    .Fresh-content {
+        padding: 15px;
+        gap: 12px;
+        width: 95%;
+    }
+
+    .freshmain1 {
+        font-size: 26px;
+    }
+
+    .freshmain2 {
+        font-size: 15px;
+    }
+
+    .freshmain3 button {
+        width: 150px;
+        padding: 11px;
+        font-size: 15px;
+    }
+
+    .bag-bb {
+        font-size: 18px;
+    }
+}
+
+/* Mobile Phones */
+@media only screen and (max-width: 480px) {
+    .fruit-bg {
+        height: 50vh;
+        border-radius: 12px;
+    }
+
+    .Fresh-content {
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .freshmain1 {
+        font-size: 24px;
+    }
+
+    .freshmain2 {
+        font-size: 14px;
+    }
+
+    .freshmain3 button {
+        width: 140px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .bag-bb {
+        font-size: 16px;
+    }
 }

@@ -97,3 +97,130 @@ form button{
    border: 0px;
    border-radius: 5px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .condetail {
+        padding: 40px;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conname {
+        font-size: 35px;
+    }
+
+    .condetail {
+        padding: 20px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    form {
+        padding: 30px;
+        width: 90%;
+    }
+
+    .addressmain {
+        width: 90%;
+    }
+
+    form p {
+        font-size: 30px;
+    }
+
+    .con1 {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .con-container {
+        margin-top: 15px;
+    }
+
+    .conname {
+        font-size: 28px;
+    }
+
+    .condetail {
+        padding: 15px;
+        gap: 30px;
+    }
+
+    form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    form p {
+        font-size: 25px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    .addressmain {
+        width: 100%;
+    }
+
+    .addressdetail :nth-child(1) {
+        font-size: 18px;
+    }
+
+    .addressdetail :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .addlogo p {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .conname {
+        font-size: 24px;
+    }
+
+    .condetail {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form p {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    .addressdetail :nth-child(1) {
+        font-size: 16px;
+    }
+
+    .addressdetail :nth-child(2) {
+        font-size: 14px;
+    }
+
+    .addlogo p {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}

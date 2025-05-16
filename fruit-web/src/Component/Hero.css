@@ -140,3 +140,162 @@
 
 
 }
+
+/* Large Tablets and Small Laptops */
+@media only screen and (max-width: 1024px) {
+    .container-2 {
+        padding: 30px;
+        gap: 40px;
+        min-height: 80vh;
+        position: relative;
+    }
+
+    .heading3 {
+        width: 480px;
+        font-size: 22px;
+    }
+
+    .cc, .bb, .aa {
+        font-size: 45px;
+    }
+
+    .heading2 {
+        width: 350px;
+        font-size: 22px;
+    }
+
+    .heading4 button {
+        width: 180px;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .leaf-img {
+        left: 250px;
+        scale: 0.9;
+        z-index: 1;
+    }
+
+    .part1 {
+        z-index: 2;
+    }
+}
+
+/* Medium Tablets */
+@media only screen and (max-width: 900px) {
+    .container-2 {
+        padding: 25px;
+        flex-direction: column;
+        min-height: auto;
+        gap: 30px;
+    }
+
+    .part1 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .heading1 {
+        align-items: center;
+    }
+
+    .heading3 {
+        width: 100%;
+        max-width: 500px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .cc, .bb, .aa {
+        font-size: 42px;
+    }
+
+    .heading2 {
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .leaf-img {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        scale: 0.8;
+        opacity: 0.3;
+    }
+}
+
+/* Small Tablets */
+@media only screen and (max-width: 768px) {
+    .container-2 {
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .part1 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .cc, .bb, .aa {
+        font-size: 38px;
+    }
+
+    .heading2 {
+        font-size: 19px;
+        padding: 0 15px;
+    }
+
+    .heading3 {
+        font-size: 19px;
+        padding: 0 15px;
+    }
+
+    .heading4 button {
+        margin: 0 auto;
+    }
+
+    .leaf-img {
+        scale: 0.7;
+        opacity: 0.2;
+    }
+}
+
+/* Small Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .container-2 {
+        padding: 20px;
+    }
+
+    .cc, .bb, .aa {
+        font-size: 40px;
+    }
+
+    .heading2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .heading3 {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .heading4 button {
+        width: 160px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .bag-btn {
+        font-size: 24px;
+    }
+
+    .leaf-img {
+        scale: 0.6;
+        top: 10px;
+        opacity: 0.5;
+    }
+}
